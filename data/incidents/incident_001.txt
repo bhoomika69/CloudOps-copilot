@@ -1,0 +1,20 @@
+
+Incident ID: INC001
+Date: 2026-10-15
+Cloud Provider: AWS
+Service: EC2
+Issue: EC2 instance running slowly
+
+Symptoms:
+The server response was slow and CPU utilisation
+reached approximately 95%.
+
+Root Cause:
+A background process was consuming excessive
+CPU resources.
+
+Resolution:
+The unnecessary process was stopped and CPU
+utilisation returned to a normal level.
+
+Status: Resolved

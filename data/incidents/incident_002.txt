@@ -1,0 +1,20 @@
+
+Incident ID: INC002
+Date: 2026-10-20
+Cloud Provider: AWS
+Service: EC2
+Issue: Unable to connect to EC2 instance
+
+Symptoms:
+The user was unable to connect to the EC2 instance
+through SSH. The connection request was timing out.
+
+Root Cause:
+The security group did not have an inbound rule
+allowing SSH traffic on port 22.
+
+Resolution:
+An inbound rule was added to allow SSH traffic
+from the authorised IP address.
+
+Status: Resolved
