@@ -1,0 +1,9 @@
+Incident ID: INC005
+Date: 2026-10-28
+Cloud Provider: AWS
+Service: EC2
+Issue: Application running on EC2 instance crashes unexpectedly.
+Symptoms: Application becomes unavailable and users receive server errors.
+Root Cause: Insufficient available memory caused the application process to stop.
+Resolution: Investigated memory usage, optimised the application process, and increased instance memory capacity.
+Status: Resolved

@@ -1,0 +1,9 @@
+Incident ID: INC004
+Date: 2026-10-25
+Cloud Provider: AWS
+Service: RDS
+Issue: Database connection timeout
+Symptoms: Application is unable to connect to the database and frequently returns timeout errors.
+Root Cause: Maximum database connections have been reached.
+Resolution: Reviewed active connections and increased the database connection limit after checking resource capacity.
+Status: Resolved

@@ -1,0 +1,9 @@
+Incident ID: INC003
+Date: 2026-10-22
+Cloud Provider: AWS
+Service: S3
+Issue: Access Denied error while accessing an S3 bucket
+Symptoms: User receives Access Denied error when trying to upload files.
+Root Cause: The IAM user does not have the required S3 permissions.
+Resolution: Updated the IAM policy to grant the required permissions for uploading objects.
+Status: Resolved
